@@ -116,7 +116,7 @@ class ExcusePlugin(Plugin):
         if Excuse.__tablename__ not in self.bot.db.get_bind().table_names():
             Base.metadata.create_all(self.bot.db.get_bind())
             types = (Excuse.LEADIN, Excuse.PERPETRATOR, Excuse.FACTOR)
-            strings = (LEADINS, PERPETRATORS, FACTORS)
+            strings = (self.LEADINS, self.PERPETRATORS, self.FACTORS)
             for (t, strings) in zip(types, strings):
                 for s in strings:
                     self.bot.db.add(Excuse(string_type=t, string=s))
