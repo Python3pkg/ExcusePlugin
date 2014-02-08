@@ -104,8 +104,6 @@ class ExcusePlugin(Plugin):
             "pulled me over in a stolen cop car and demanded fellatio",
             "made me find Jesus",
             "kept telling me knock knock jokes",
-            "fed the enemy carry",
-            "killed my courier",
             )
 
     help = {
