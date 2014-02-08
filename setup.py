@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name='thealot-excuse',
-      version='0.1.1',
+      version='0.1.2',
       author='Edvin "nCrazed" Malinovskis',
       author_email='edvin.malinovskis@gmail.com',
       url='https://github.com/nCrazed/ExcusePlugin',
